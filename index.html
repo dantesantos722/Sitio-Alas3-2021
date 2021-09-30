@@ -1,29 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4alas - Sitio UTN</title>
     <link rel="stylesheet" href="estilos.css">
-    <title>
-    4Alas
-    </title>
 </head>
-<body>
+<body>    
     <div class="cabecera">
         <a href="index.html">
             <img src="images/logo_3alas.png" alt="Ir al inicio">
         </a>
-        <h1>Enter factory</h1>
-
-    </div>
+        <h1>The Energy Factory</h1>
+    </div><!-- Cierra .cabecera -->
     <div class="contenedor">
         <nav class="nav">
-            esto es la navegacion
+            <ul class="nav-lista">
+                <li class="nav-lista_item">
+                    <a href="empresa.html" class="nav-link">Empresa</a>
+                </li>
+                <li class="nav-lista_item">
+                    <a href="servicios.html" class="nav-link">Servicios</a>
+                </li>
+                <li class="nav-lista_item">
+                    <a href="productos.html" class="nav-link">Productos</a>
+                </li>
+                <li class="nav-lista_item">
+                    <a href="clientes.html" class="nav-link">Clientes</a>
+                </li>
+                <li class="nav-lista_item">
+                    <a href="garantia.html" class="nav-link">Garantía</a>
+                </li>
+                <li class="nav-lista_item">
+                    <a href="contacto.html" class="nav-link">Contacto</a>
+                </li>
+                <li class="nav-lista_item">
+                    <form action="buscar.js" class="nav-form">
+                        <!-- Este input no es accessible -->
+                        <input type="search" placeholder="Buscar en el sitio...">
+                        <input type="submit" value="Buscar">
+                    </form>                    
+                </li>
+            </ul>
         </nav>
-        Aca continua el sitio web
-    </div>
-    
+        <div class="imagen">
+            <img src="images/slide/3.jpg" alt="Imagen de algo de China">
+        </div><!-- Acá cierra .imagen -->
+        
+        <div class="principal">
+            <div class="categorias">
+                Acá van las categorias
+            </div><!-- Acá cierra .categorias -->
+            <div class="productos">
+                <div class="lampara">1</div>
+                <div class="lampara">2</div>
+                <div class="lampara">3</div>
+                <div class="lampara">4</div>
+            </div><!-- Acá cierra .productos -->
+        </div><!-- Acá cierra .principal -->
 
+
+
+        Acá continua el sitio web
+    </div><!-- Cierra .contenedor -->
 </body>
 </html>
